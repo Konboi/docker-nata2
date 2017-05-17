@@ -1,7 +1,6 @@
 #!/bin/bash
 
 cd /app
-pwd
 
 if [ -z "$DB_URL" ]; then
     cp config.sample.toml config.toml
